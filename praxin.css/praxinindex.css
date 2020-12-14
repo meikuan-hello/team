@@ -1,0 +1,80 @@
+/* 顶部区域
+---------------------------------------------------------------- */
+.top{
+    height: 30px;
+    background-color: #f3f3f3;
+}
+.info{
+    float: left;
+}
+.topright{
+    float: right;
+}
+.topright li{
+    display: inline;
+    margin-right: 20px;
+}
+.top .contian{
+    height: 30px;
+    line-height: 30px;
+}
+/* 头部区域
+---------------------------------------------------------------- */
+header{
+    height: 110px;
+    background-color: #ffffff;
+    color: #52c41a;
+    border-bottom: 1px solid #52c41a;
+}
+header .right-4{
+    position: relative;
+}
+header .contian{
+    height: 110px;
+    line-height: 30px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 110px;
+}
+.srchbox{
+    float: left;
+    margin-top: 20px;
+}
+.srchbox #srchtext{
+    width: 415px;
+    height: 42px;
+    box-sizing: border-box;
+    border: 2px solid #52c41a;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+header .srchbtn{
+    display: block;
+    font-size: 16px;
+    background-color: #52c41a;
+    width: 100px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    float: left;
+    margin-top: 20px;
+}
+header .srchbtn:hover{
+    opacity: 0.7;
+}
+.headlistitem{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+.headnav li{
+    font-size: 16px;
+    display: inline;
+    margin-right: 20px;
+}
+.headnav-list:active{
+    color: #51c42a;
+}

@@ -1,0 +1,34 @@
+body{
+    font-size: 12px;
+    background-color:  #eeeeee;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    columns: #1890ff;
+}
+.contian{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0px;
+}
+.clearfix{
+    *zoom:1;
+}
+.left-1{
+    width: 208px;
+    float: left;
+}
+.right-4{
+    width: 862px;
+    float: right;
+}
