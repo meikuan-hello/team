@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>商品详情页</title>
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/index2.css">
     <link rel="stylesheet" href="./css/common2.css">
+    <link rel="stylesheet" href="./css/index2.css">
+    <style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    input[type="number"]{
+        -moz-appearance: textfield;
+    }
+</style>
 </head>
 <body>
       <!-- S 顶部 -->  
@@ -73,34 +82,75 @@
 
     <!-- S 商品样式 --> 
     <div class="product">
-        <div class="container">
-            <div main-img>
+        <div class="container clearfix">
+            <div class="product-xq ">
+            <div class=" main-img ">
                  <img src="./img/1595244239456.jpg" alt="">
              </div>
-            <div class="product-xq"></div>
-                <h2 class="product-name">飞利浦（PHILIPS）70PUF6894/T3 70英寸 人工智能超大屏幕金属边框 16G大内存4K超高清HDR网络智能液晶电视机</h2>
-                <p class="product-description">飞利浦（PHILIPS）70PUF6894/T3 70英寸 人工智能超大屏幕金属边框 16G大内存4K超高清HDR网络智能液晶电视机</p>
+                <h2 class=" product-name">飞利浦（PHILIPS）70PUF6894/T3 70英寸 人工智能超大屏幕金属边框 16G大内存4K超高清HDR网络智能液晶电视机</h2>
+                <p class="  product-description">飞利浦（PHILIPS）70PUF6894/T3 70英寸 人工智能超大屏幕金属边框 16G大内存4K超高清HDR网络智能液晶电视机</p>
             <div class="product-info-item">
                 <span class="label">价格:</span>
-                <span class="info product-price">&yen;23232</span>
+                <span class="product-price">&yen;23232</span>
             </div>
             <div class="product-info-item">
                 <span class="label">库存:</span>
                 <span class="info">232</span>
             </div>
+            <div class="product-info-item">
+                <span class="label">颜色：</span>
+                <span class="info">
+                    <span class="color-item">白色</span>
+                    <span class="color-item">红色</span>
+                    <span class="color-item">绿色</span>
+                </span>
             </div>
-            <div class="product-img">
-
+            <div class="product-info-item">
+                <span class="label">数量:</span>
+                <input class="count-input" type="number">
+                <div class="but">
+                <span class="count-btn plus ">+</span>
+                <span class="count-btn minus">-</span>              
             </div>
-
-           
+            </div>
+            <div class="add-cart">
+                <a class=" add-cart-btn" href="javascript:;">添加购物车</a>
+            </div>
+            </div>
+        </div>  
+        <div class="product-img clearfix container">
+            <ul>
+                <li class="img">
+                    <a href="#">
+                        <img src="./img/1595244227493.jpg" alt="">
+                    </a>
+                </li>
+                <li class="img">
+                    <a href="#">
+                        <img src="./img/1595244234890.jpg" alt="">
+                    </a>
+                </li>
+                <li class="img">
+                    <a href="#">
+                        <img src="./img/1595244239456.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+          </div>     
     </div>
      <!-- E 商品详情-->
 
       <!-- S 结尾 --> 
      <div class="end">
          <div class="container">
-
+           <div class="spxq">
+            <div class="list-sp">商品详情</div>
+           </div>
+           <div class="incl-tab">
+               <p>
+                   <img  alt="d1.jpg">
+               </p>
+           </div>
          </div>
      </div>
      <!-- E 结尾-->
