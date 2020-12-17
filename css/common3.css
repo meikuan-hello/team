@@ -1,0 +1,75 @@
+body{
+    font-size: 12px;
+    background-color: #eeeeee;
+}
+.container{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    color: #1890ff;
+}
+ /* 清除浮动 */
+ .clearfix:after{
+     content: "";
+     height: 0;
+     clear: both;
+     display: block;
+     visibility: hidden;
+ }
+ .clearfix{
+     *zoom: 1;
+ }
+ .col-1{
+     width: 200px;
+ }
+ .col-4{
+     width: 862px;
+ }
+ .col-space{
+     margin-right: 10px;
+ }
+ /* 商品通用 */
+ .card-itme .product-cart{
+     height: 300px;
+     background-color: #fff;
+     padding:10px 10px;
+     box-sizing: border-box;
+     transition: all 0.3s;
+     display: inline-block;
+ }
+ .card-itme .product-img{
+     margin-top: 20px;
+     box-sizing: border-box;
+     width: 180px;
+     height: 180px;
+ }
+ .card-itme .product-cart{
+     margin-bottom: 10px;
+ }
+ .card-itme .product-cart .product-name{
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
+     margin-bottom: 27px;
+     box-sizing: border-box;
+ }
+ .card-itme .product-cart .product-space{
+     color: red;
+     float: left;
+ }
+ .card-itme .product-cart .product-mun{
+     color: rgba(0,0,0,0.3);
+     float: right;
+ }
+ .card-itme .product-cart:hover{
+    box-shadow: 3px 3px 3px  rgba(0,0,0,0.3);
+ }
+ .card-itme .product-cart:nth-child(4n){
+    margin-right: 0;
+}

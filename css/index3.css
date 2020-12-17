@@ -1,0 +1,264 @@
+/* 顶部
+---------------------------------------------------------------- */
+.top{
+    height:30px;  
+   background-color: #f3f3f3;
+}
+.top .container{
+ line-height: 30px ;
+   
+}
+.top .user-infor{
+    float: left;
+}
+.top .nav-list{
+    float: right;
+}
+.top .nav-list .nav-itme{
+    float: left;
+    margin-right: 18px;
+    padding: 0 6px;
+    box-sizing: border-box;
+}
+.top .nav-list .icon-gouwuche{
+    font-size: 12px;
+}
+.top .nav-list .nav-itme:hover{
+    background-color: #fff;
+
+}
+
+/* 头部搜索
+---------------------------------------------------------------- */
+.sur{
+    background-color: #fff;
+    border-bottom: 1px solid #52c41a;
+  
+}
+.sur .container{
+    height: 110px;
+    /* background-color: green; */
+}
+.sur .logo{
+    height: 110px;
+    float: left;
+    line-height: 110px;
+    /* background-color: red; */
+}
+.sur .logo a{
+    font-size: 28px;
+    color: #52c41a;
+    font-weight: bold;
+}
+.sur .search-wrap{
+    height: 110px;
+    /* background-color: bisque; */
+    float: left;
+}
+.sur .search-wrap .search-input{
+    width: 414px;
+    height: 42px;
+    box-sizing: border-box;
+    border: 2px solid #52c41a;
+    outline: none;
+    font-size: 14px;
+    padding-left: 10px;
+    float: left;
+}
+.sur .search-wrap .search-but{
+    width: 100px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    background-color: #52c41a;
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+.sur .search-wrap .search-but:hover{
+    opacity: 0.7;
+}
+.sur .search-wrap .nav-itme{
+    float: left;
+    font-size: 16px;
+    font-weight: 200;
+    margin-right: 40px;
+    
+}
+.sur .search-wrap .nav-itme .active{
+    color:#52c41a ;
+}
+.sur .search-wrap .search-box{
+    margin-top: 18px;   
+}
+.sur .search-wrap .nav-list{
+    margin-top: 22px;
+}
+/*
+全部商品
+---------------------------------------------------------------- */
+.title .container{
+    padding-top: 20px;
+    /* height: 107px; */
+    background-color: #eeeeee;
+}
+.title .container .link{
+    line-height: 87px;
+    font-size: 17px;
+    color: #333;
+    float: left;
+    font-weight: lighter;
+}
+.list .container{
+    margin-bottom: 10px;
+}
+.list .container .list-btu{
+    height: 673px;
+    border: 1px solid #d9d9d9;
+    float: left;
+
+}
+.list .container .list-title{
+    height: 50px;
+    background-color: #333;
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.list .container .list-title .icon-fenlei{
+    font-size: 30px;
+    text-rendering: auto;
+    display: inline-block;
+    vertical-align:top;
+}
+.list .container .categories-parent{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.list .container .categories-parent .categories-itme{
+   margin-bottom: 20px;
+}
+.list .container .categories-parent .keyword{
+    font-size: 16px;
+    color: #333;
+    font-weight: lighter;
+}
+.list .container .sort {
+    float: left;
+    height: 31px;
+    margin-bottom: 25px;
+}
+.list .container .sort .sort-item{
+    border: 1px solid #d9d9d9;
+    float: left;
+    padding: 10px 20px;
+}
+.list .container .sort  .default{
+    background-color: #52c41a;
+    color: #fff;
+}
+.list .container .sort .sort-item .icon-shangxia{
+    font-size: 14px;
+    color: #858585;
+}
+.list .container .card-itme{
+    float: left;
+}
+/* 页码
+---------------------------------------------------------------- */
+.pagination-box .container .pagination{
+    height: 31px;
+    float: right;
+    margin-bottom: 10px;
+    position: relative;
+}
+.pagination-box .container  .page-item{
+    border: 1px solid #b3b3b3;
+    color: #b3b3b3;
+    display: inline-block;
+    width: 45px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.pagination-box .container .pagination .last{
+    position: absolute;
+    left: 50%;
+    margin-left: -112.5px;
+}
+.pagination-box .container .pagination .one{
+    position: absolute;
+    left: 50%;
+    margin-left: -67.5px;
+    background-color: #52c41a;
+    color: #fff;
+}
+.pagination-box .container .pagination .tow{
+    position: absolute;
+    left: 50%;
+    margin-left: -22.5px;
+}
+.pagination-box .container .pagination .next{
+    position: absolute;
+    left: 50%;
+    margin-left: 22.5px;
+}
+.pagination-box .container .pagination .page-summ{
+    display: inline-block;
+    font-size: 18px;
+    color: #b3b3b3;
+    margin-left: 10px;
+    margin-top: 5px;
+    position: absolute;
+    left: 58%;
+
+}
+
+
+
+/* 底部
+---------------------------------------------------------------- */
+.footer{
+    padding-bottom: 50px;
+     background-color: #2f2f2f;
+    }
+ .footer .promise{
+     padding:  50px 40px;
+     border-bottom: 1px solid #3d3d3d;
+ }
+ .footer .promise .icon{
+     display: inline-block;
+     font-size: 18px;
+     color: #fff;
+     height: 36px;
+     line-height: 36px;
+     background-image: url(../mag/us-icon.png);
+     background-repeat: no-repeat;
+     padding-left: 40px;
+ }
+ .footer .promise .icon1{
+     margin-right: 210px;
+ }
+ .footer .promise .icon2{
+     margin-right: 210px;
+     background-position: 0 -44px;
+     padding-left: 56px;
+ }
+ .footer .promise .icon3{
+     background-position: 0 -82px;
+ }
+ .footer .links{
+     text-align: center;
+      padding: 10px 0;
+ }
+ .footer .links a{
+     color: #888;
+     padding: 0 10px;
+ }
+ .footer  .copy{
+     text-align: center;
+     color: #888;
+ }
