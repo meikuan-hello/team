@@ -1,0 +1,205 @@
+/* 顶部区域
+---------------------------------------------------------------- */
+.top{
+    height: 30px;
+    background-color: #f3f3f3;
+}
+.info{
+    float: left;
+}
+.topright{
+    float: right;
+}
+.topright li{
+    display: inline;
+    margin-right: 20px;
+}
+.top .contian{
+    height: 30px;
+    line-height: 30px;
+}
+/* 头部区域
+---------------------------------------------------------------- */
+header{
+    height: 110px;
+    background-color: #ffffff;
+    color: #52c41a;
+    border-bottom: 1px solid #52c41a;
+}
+header .right-4{
+    position: relative;
+}
+header .contian{
+    height: 110px;
+    line-height: 30px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 110px;
+}
+.srchbox{
+    float: left;
+    margin-top: 20px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.srchbox #srchtext{
+    width: 415px;
+    height: 42px;
+    box-sizing: border-box;
+    border: 2px solid #52c41a;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+header .srchbtn{
+    display: block;
+    font-size: 16px;
+    background-color: #52c41a;
+    width: 100px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    float: left;
+    margin-top: 20px;
+}
+header .srchbtn:hover{
+    opacity: 0.7;
+}
+.headlistitem{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+.headnav li{
+    font-size: 16px;
+    display: inline;
+    margin-right: 20px;
+}
+.headnav-list:active{
+    color: #51c42a;
+}
+/* 中间区域
+---------------------------------------------------------------- */
+.content{
+    height: 700px;
+    margin-top: 40px;
+}
+.topnote{
+    margin-bottom: 22px;
+}
+.hot #hot-left-1{
+    background-image: linear-gradient(#51aaeb,#51c42a);
+}
+.shadow{
+    padding: 30px 10px;
+    text-align: center;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.price{
+    color: red;
+    display: inline-block;
+    margin-right: 88px;
+    box-sizing: border-box;
+}
+.buy{
+    color: #8f8f8f;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.left-1 img{
+    margin-top: 20px;
+    width: 180px;
+    height: 180px;
+}
+.shadow:hover{
+    transition-property:all;
+    transition-duration: 2s;
+    box-shadow: 0 0 15px #f00;
+}
+.suoyoufenlei{
+    background-color: #333333;
+    width: 187px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    color: #ffffff;
+}
+.content .right-4{
+    margin-top: 35px;
+}
+.morenpaixu-box{
+    background-color: #52c41a;
+    width: 73px;
+    height: 30px;
+    float: left;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    line-height: 30px;
+}
+.anjiage{
+    width: 73px;
+    height: 30px;
+    float: left;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    line-height: 30px;
+}
+.center-contain{
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.fenlei-list li{
+    margin-top: 15px;
+    height: 15px;
+    line-height: 15px;
+    margin-left: 25px;
+    box-sizing: border-box;
+}
+.center-contain-picbox{
+    margin-top: 20px;
+}
+/* 底部导航区域
+---------------------------------------------------------------- */
+footer{
+    background-color: #2f2f2f;
+    margin-top: 40px;
+}
+footer .contian{
+    height: 250px;
+}
+.nav-top{
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+}
+.nav-top li{
+    margin-top: 60px;
+    display: inline-block;
+    margin-right: 215px;
+}
+.nav-top li:nth-last-child(1){
+    margin-right: 0px;
+}
+.low-nav{
+    margin-top: 65px;
+    border-top: 1px solid #888888;
+    padding-top: 14px;
+    box-sizing: border-box;
+}
+.low-nav li{
+    display: inline-block;
+    margin-left: 23px;
+    color: #888888;
+}
+footer p{
+    margin-top: 15px;
+    text-align: center;
+    color: #888888;
+}
+footer .low-nav{
+    text-align: center;
+}
